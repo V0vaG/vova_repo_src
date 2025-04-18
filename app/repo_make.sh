@@ -6,8 +6,8 @@
 ################################
 
 # https://earthly.dev/blog/creating-and-hosting-your-own-deb-packages-and-apt-repo/
-#sudo apt-get update
-#sudo apt-get install -y dpkg-dev gpg
+# apt-get update
+# apt-get install -y dpkg-dev gpg
 clear
 
 
@@ -18,7 +18,7 @@ log_file=repo_make.log
 if [ ! -f $config_file ]; then
 	echo "Creating config file..."
 	sleep 2
-	sudo echo 'ARCH_LIST=(amd64 arm64)
+	echo 'ARCH_LIST=(amd64 arm64)
 PORT='8000'
 binary='0'
 DELETE_APP_FOLDER='1'
@@ -33,9 +33,9 @@ fi
 
 source $config_file
 
-sudo rm -rf /tmp/* "$SRC"/*.x.c ./*.spec
+rm -rf /tmp/* "$SRC"/*.x.c ./*.spec
 
-user=$SUDO_USER
+user=$USER
 repo_path=$PWD
 PORT=$1
 dt=$(date '+%d/%m/%Y %H:%M:%S');
@@ -77,12 +77,12 @@ install_compiler(){
     return 0
   else
     echo "$1 is not installed."
-    sudo apt-get update
+     apt-get update
     if [[ $1 == 'pyinstaller' ]]; then
-      sudo apt install python3-pip -y
+       apt install python3-pip -y
       pip install pyinstaller
     else
-      sudo apt-get install -y $1
+       apt-get install -y $1
     fi
   fi
 }
@@ -270,44 +270,44 @@ cat $repo_path/apt-repo/dists/stable/Release | gpg --default-key its_a_vio@hotma
 
 cd $repo_path && ls
 
-sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/vova_repo.gpg --import $repo_path/pgp-key.public
+ gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/vova_repo.gpg --import $repo_path/pgp-key.public
 
 # To add repo
-# echo 'deb [arch=all] http://127.0.0.1:$PORT/apt-repo stable main' | sudo tee /etc/apt/sources.list.d/vova_repo.list
+# echo 'deb [arch=all] http://127.0.0.1:$PORT/apt-repo stable main' |  tee /etc/apt/sources.list.d/vova_repo.list
 
 # To add signed repo
-# echo 'deb [arch=all signed-by=$repo_path/pgp-key.public] http://127.0.0.1:$PORT/apt-repo stable main' | sudo tee /etc/apt/sources.list.d/vova_repo.list
+# echo 'deb [arch=all signed-by=$repo_path/pgp-key.public] http://127.0.0.1:$PORT/apt-repo stable main' |  tee /etc/apt/sources.list.d/vova_repo.list
 
 echo '################################################################
-To add repo: echo 'deb [arch=all] http://$ip:$PORT/apt-repo stable main' | sudo tee /etc/apt/sources.list.d/vova_repo.list
+To add repo: echo 'deb [arch=all] http://$ip:$PORT/apt-repo stable main' |  tee /etc/apt/sources.list.d/vova_repo.list
 
-To edit repo: sudo nano /etc/apt/sources.list.d/vova_repo.list
+To edit repo:  nano /etc/apt/sources.list.d/vova_repo.list
 
 
-To update: sudo apt-get update --allow-insecure-repositories
+To update:  apt-get update --allow-insecure-repositories
 
-To upgrade: sudo apt-get upgrade
+To upgrade:  apt-get upgrade
 ################################################################
 '
 
-sudo rm -rf $SRC/*.x.c $SRC/*.x.sh *.spec
-#sudo rm -rf /tmp/*
+ rm -rf $SRC/*.x.c $SRC/*.x.sh *.spec
+# rm -rf /tmp/*
 
 
-sudo ufw allow 8000
+ ufw allow 8000
 
 python_pros=$(pgrep -f python3)
 kill -9 $python_pros
 
 #cd $repo_path && python3 -m http.server $PORT 
-sudo rm -f apt.log
+ rm -f apt.log
 
 #cd $repo_path && python3 -m http.server $PORT &> repo.log &
 
-# echo 'deb [arch=all signed-by=$repo_path/pgp-key.public] http://127.0.0.1:$PORT/apt-repo stable main' | sudo tee /etc/apt/sources.list.d/vova_repo.list
+# echo 'deb [arch=all signed-by=$repo_path/pgp-key.public] http://127.0.0.1:$PORT/apt-repo stable main' |  tee /etc/apt/sources.list.d/vova_repo.list
 
-# echo 'deb [arch=all] http://127.0.0.1:$PORT/apt-repo stable main' | sudo tee /etc/apt/sources.list.d/vova_repo.list
+# echo 'deb [arch=all] http://127.0.0.1:$PORT/apt-repo stable main' |  tee /etc/apt/sources.list.d/vova_repo.list
 
-# sudo apt-get update --allow-insecure-repositories
-# sudo apt-get install b64
-# sudo apt-get remove b64
+#  apt-get update --allow-insecure-repositories
+#  apt-get install b64
+#  apt-get remove b64
