@@ -10,4 +10,6 @@ COPY . .
 
 RUN bash repo_make.sh
 
+WORKDIR ~/apt-repo
+
 CMD python3 -m http.server 5000
