@@ -8,8 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN bash repo_make.sh
-
-WORKDIR ~/apt-repo
+#RUN bash repo_make.sh
 
 CMD python3 -m http.server 5000
