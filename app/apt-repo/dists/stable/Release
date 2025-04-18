@@ -1,0 +1,24 @@
+Origin: Example Repository
+Label: Example
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: 
+Components: main
+Description: An example software repository
+Date: Fri, 18 Apr 2025 12:09:40 +0000
+MD5Sum:
+ 5f695e53dad0b79eca648e277c9b0b8b 6535 main/binary-arm64/Packages
+ 553b9237904c66d42f21a1c7ced44d30 2226 main/binary-arm64/Packages.gz
+ 5f439f921c212fadb3675217ade13b27 6535 main/binary-amd64/Packages
+ 5ea6bb7ed5d96dd67800aec04d55a02e 2225 main/binary-amd64/Packages.gz
+SHA1:
+ 778ca773af48bcf46216a0c1c47c9a8528ee4eb4 6535 main/binary-arm64/Packages
+ f9199123b1bc3d81682938b59b58ba01bf4ac953 2226 main/binary-arm64/Packages.gz
+ b3f5bf00123c268e9bafa41b83f0d8184edbda6b 6535 main/binary-amd64/Packages
+ a8a1d9cd007dd2eb54928934bc59af335a2c0feb 2225 main/binary-amd64/Packages.gz
+SHA256:
+ 663c578886ebf6d6706132d09801454b777864c3080f7f32d2e559b9be79ed92 6535 main/binary-arm64/Packages
+ d614b554427f8602d762f989d9602a6ead15e30e848e8cd0cb104f3270622ee8 2226 main/binary-arm64/Packages.gz
+ 67fd7af92a712f2687a0d8a435abfef00f1cfd3ca8999ce4af335a9e9a171387 6535 main/binary-amd64/Packages
+ b6e30d3022d9b4a66e5f3f63d299d681343695153f6ef0132c2e54f6d570b69c 2225 main/binary-amd64/Packages.gz
