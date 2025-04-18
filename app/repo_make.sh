@@ -294,10 +294,10 @@ To upgrade:  apt-get upgrade
 # rm -rf /tmp/*
 
 
- ufw allow 8000
+#ufw allow 8000
 
-python_pros=$(pgrep -f python3)
-kill -9 $python_pros
+#python_pros=$(pgrep -f python3)
+#kill -9 $python_pros
 
 #cd $repo_path && python3 -m http.server $PORT 
  rm -f apt.log

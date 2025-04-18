@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2025-04-18 [SCEAR]
-      F3B032A2F415F52127A29166486E117752A63C5A
+      3BE289A6DF933386524CCB7431E8B36F3F18489D
 uid          VOVA <its_a_vio@hotmail.com>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCgAgFiEE87AyovQV9SEnopFmSG4Rd1KmPFoFAmgCQQYCHQAACgkQSG4R
-d1KmPFrMNA//euCFJ8pEthNkt/VlsHBEWjoItATknbvyQeAjmKrO86AEVH4z8Kn9
-nUkQM8mBjbzRBoZGuOgzxic4rhHmIfRgLD7vJdwgSplxWpDuaeMMYcgmlRBW7XZu
-CdSLuWrohq92IaiCc6o2pX+moqG06dJo1R1Wt8r8IgGZwyEyaYEnEI/biX7e9zJ8
-/vshycjf4abcd1d+/BQORjII2Cb2N2q4WLl9BmD7/caqrUnNX3tVaIrD6tJKFmCg
-AYIYLjs8JCYqtmOLHXCrB7oyf6LIv7D9GCarGBfboXZ9efpJdmwJcx/7DysgyMKA
-Y9OymscYX1Fn6qEaEOnqvPijrxZ93G9/GV9b+9bgpIFcSM59BJ1ONEM6LsG7M+20
-Keiz0q1HrACcIiVh4SdUJ1/JYOaMe/Q69HG5zkXFgjiM2UPidjk5+FpWlHtmAbrj
-jvewar1+sKFvWr/yjFxGmTo0rUMPo22l8ke7TN3UwkPGXf7zlFDW7rceb+++p99e
-3LSANGbt4mi6eeneFg3a/KXmSoHWHraHMCrlV7ivpW7hCrMaxcytu21VuZYJ5GKd
-ff6DtSg/SFtUDAFGEkupbkkYRdAc4aSc09N5431ivfVAaaQIqoLS2sZbYZoGB65d
-OeMOfaVjXh1fTvQ+3J8Dik5xft6uPKgTKVD1QOva2mVqV5QZSoI8mpw=
-=fxN2
+iQI2BCABCgAgFiEEO+KJpt+TM4ZSTMt0Meizbz8YSJ0FAmgCQpwCHQAACgkQMeiz
+bz8YSJ0Ejw//WFQE8KqBF09wcpV07G9Hv0UIwp0ix6id+UAb4ksPxgHbpfnxK0aj
+WDka9QC9+ENq0iWY46Rhf09Z5q4dWggJD6UX/DKDQ6IF6s99IQ17AF+NysdvBh9w
+GdE1so7aYOfxE/DXBpNWcTv+W0V7oCzd7RfjubhzOboKNPTM9ssPski2Y0TPAjQC
+3aum35m+9Hn2EPgwfSzaq9S7KM6WxXCHJOG6eAZT1xJOt9vAfqevE8LddqUnUqPg
+EjAOckbwcq6NwA8snujceWPykD9XkDHdREJGzpikKjfIeDKsQfqNPJkt0iEexqmk
+R6Yt7uoZruyQLJ6Mh0epWxYLRGWCFz0/8EP7C3p4wUSYBkJGGybYodAIhHBeJvsc
+FGOwt91Xn5ZC5p4PfgxPJ1eXoEmLUwR011kKCuyWep3qK4hmaCTFNeJFBvrw304V
+btYDBkIOf3suo8VG8s/0mEbnornW+bfXC19qEkSLiXBO+9IAt8Bmzzeh4Fc2Cb8e
+K3RwcDQcm1eNW+ei3GKMlI336cAQ9q16kFntXTXE/arBX9+yos/kloJHR1NUT11L
+qjC/TFEiMJZ+8EdKCT6pWNZA+W+x62tOqJ1NjRJA4AYGB4vM7qVZvpuW33F+Tz1K
+QCYeNgG6POGD8BEvN8Ir7LVTTvbow3QmjMcH3wJTAHwFRVf8dPpBMwQ=
+=Lr08
 -----END PGP PUBLIC KEY BLOCK-----
