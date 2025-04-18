@@ -1,5 +1,5 @@
 VOLUMES="['/home/$USER/script_files/${proejct}:/root/script_files/${proejct}']"
-VERSION='0.0.6'
+VERSION='0.0.7'
 # B_NUM='1'
 ARGS="--build-arg VERSION=$VERSION --build-arg B_NUM=$B_NUM"
 COMMAND='python3 -m http.server 5000'
