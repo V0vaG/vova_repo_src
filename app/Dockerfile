@@ -10,4 +10,4 @@ COPY . .
 
 RUN bash repo_make.sh
 
-CMD python3 -m http.server 9090
+CMD python3 -m http.server 5000
