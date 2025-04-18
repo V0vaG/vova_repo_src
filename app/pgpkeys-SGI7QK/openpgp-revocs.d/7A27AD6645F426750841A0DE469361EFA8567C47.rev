@@ -1,7 +1,7 @@
 This is a revocation certificate for the OpenPGP key:
 
 pub   rsa4096 2025-04-18 [SCEAR]
-      3BE289A6DF933386524CCB7431E8B36F3F18489D
+      7A27AD6645F426750841A0DE469361EFA8567C47
 uid          VOVA <its_a_vio@hotmail.com>
 
 A revocation certificate is a kind of "kill switch" to publicly
@@ -21,17 +21,17 @@ before importing and publishing this revocation certificate.
 :-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: This is a revocation certificate
 
-iQI2BCABCgAgFiEEO+KJpt+TM4ZSTMt0Meizbz8YSJ0FAmgCQpwCHQAACgkQMeiz
-bz8YSJ0Ejw//WFQE8KqBF09wcpV07G9Hv0UIwp0ix6id+UAb4ksPxgHbpfnxK0aj
-WDka9QC9+ENq0iWY46Rhf09Z5q4dWggJD6UX/DKDQ6IF6s99IQ17AF+NysdvBh9w
-GdE1so7aYOfxE/DXBpNWcTv+W0V7oCzd7RfjubhzOboKNPTM9ssPski2Y0TPAjQC
-3aum35m+9Hn2EPgwfSzaq9S7KM6WxXCHJOG6eAZT1xJOt9vAfqevE8LddqUnUqPg
-EjAOckbwcq6NwA8snujceWPykD9XkDHdREJGzpikKjfIeDKsQfqNPJkt0iEexqmk
-R6Yt7uoZruyQLJ6Mh0epWxYLRGWCFz0/8EP7C3p4wUSYBkJGGybYodAIhHBeJvsc
-FGOwt91Xn5ZC5p4PfgxPJ1eXoEmLUwR011kKCuyWep3qK4hmaCTFNeJFBvrw304V
-btYDBkIOf3suo8VG8s/0mEbnornW+bfXC19qEkSLiXBO+9IAt8Bmzzeh4Fc2Cb8e
-K3RwcDQcm1eNW+ei3GKMlI336cAQ9q16kFntXTXE/arBX9+yos/kloJHR1NUT11L
-qjC/TFEiMJZ+8EdKCT6pWNZA+W+x62tOqJ1NjRJA4AYGB4vM7qVZvpuW33F+Tz1K
-QCYeNgG6POGD8BEvN8Ir7LVTTvbow3QmjMcH3wJTAHwFRVf8dPpBMwQ=
-=Lr08
+iQI2BCABCgAgFiEEeietZkX0JnUIQaDeRpNh76hWfEcFAmgCRZsCHQAACgkQRpNh
+76hWfEduCQ/+L/9eMxH9LqoOnFQk7nORvSfEuBT9H1JwjLeDgjF8RAsB5HdIRTHi
+SoMW+Fw52y+iLlRxEDgTrU2Ysp8snUTdiHGXS86y8qMaRHZLca1SpwCq8PnZ6fO1
+PrwxPQRkb5aW94lBfEDG4/5BgRGQN8lctDe1Jpva9+WhRIuKHN9nlPkkmVZuM7Mm
+mklNUAYS1QwUD/merJBFL1OqkYwFr3Uh+/zPrlaLhUFnNTZSGs0NUPwl467dqRvK
+02DVxOvXSal7ZgGI+4MZ8+9xE3d3cxtWuCfolzYwNGs+xb3nVSale2u46FKt6fuV
+WcP68EwxkTWxtrac+cIg2qdnEkZE4nkAZVgbwyBO8oWl8OvgrBIAwo2++Ob6rVDk
+uDk+bP4ExGAE6ocjkvkGaQleZs5qNZ41RrKyF9P6Tbh8baBhAJWPNMcJu2m9JY8v
+vkOWDofDbIAuGRx/MB2xWD/uuAFyOORbaHUmXB/jlOIq0pjczwO2pGreyptLl+Ku
+mwQEF8x/kLGMxDQvZbfdo42yAnsd7NXfmbMmFGaVPW8jD1Z/PV277ErqJJj+tyz4
+tO+OghfEHGfoXYOg2PsiPlukj1vdXIOJVyFfORIV9+A5e2b1clIg3BOyGHCI3LY8
+h4jl4yqeKwomTd2MX93VwOgyQ+uCMDvU9RumikPXvcyuNPP9jwO+AdI=
+=rT+Q
 -----END PGP PUBLIC KEY BLOCK-----

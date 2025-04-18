@@ -6,19 +6,19 @@ Version: 1.0
 Architectures: 
 Components: main
 Description: An example software repository
-Date: Fri, 18 Apr 2025 12:16:27 +0000
+Date: Fri, 18 Apr 2025 12:29:11 +0000
 MD5Sum:
- 5f695e53dad0b79eca648e277c9b0b8b 6535 main/binary-arm64/Packages
- 553b9237904c66d42f21a1c7ced44d30 2226 main/binary-arm64/Packages.gz
- 5f439f921c212fadb3675217ade13b27 6535 main/binary-amd64/Packages
- 5ea6bb7ed5d96dd67800aec04d55a02e 2225 main/binary-amd64/Packages.gz
+ 2fcb49010167d04d5109c2206629776e 6931 main/binary-arm64/Packages
+ edf14b8102be0a13d71428b6af825dc2 2346 main/binary-arm64/Packages.gz
+ 289fdf3ac49093568558dc835c19875d 6931 main/binary-amd64/Packages
+ dba0896bae2542710d1034be4ada8e06 2344 main/binary-amd64/Packages.gz
 SHA1:
- 778ca773af48bcf46216a0c1c47c9a8528ee4eb4 6535 main/binary-arm64/Packages
- f9199123b1bc3d81682938b59b58ba01bf4ac953 2226 main/binary-arm64/Packages.gz
- b3f5bf00123c268e9bafa41b83f0d8184edbda6b 6535 main/binary-amd64/Packages
- a8a1d9cd007dd2eb54928934bc59af335a2c0feb 2225 main/binary-amd64/Packages.gz
+ 97f1cf6ff1d490650fd8472cf07d8c067fe683de 6931 main/binary-arm64/Packages
+ 79cad11755d74d3a1c9fc4cc403952dd25b81886 2346 main/binary-arm64/Packages.gz
+ 81c062a511cca6d8de5e2e79de1a706d6e4d03aa 6931 main/binary-amd64/Packages
+ 0055eb938e2950c04bffc5d4910daa8ad7bec71a 2344 main/binary-amd64/Packages.gz
 SHA256:
- 663c578886ebf6d6706132d09801454b777864c3080f7f32d2e559b9be79ed92 6535 main/binary-arm64/Packages
- d614b554427f8602d762f989d9602a6ead15e30e848e8cd0cb104f3270622ee8 2226 main/binary-arm64/Packages.gz
- 67fd7af92a712f2687a0d8a435abfef00f1cfd3ca8999ce4af335a9e9a171387 6535 main/binary-amd64/Packages
- b6e30d3022d9b4a66e5f3f63d299d681343695153f6ef0132c2e54f6d570b69c 2225 main/binary-amd64/Packages.gz
+ ae32c3b15381a79d2300798bf00f91c886aee8cbb14495b75d107b5b43452957 6931 main/binary-arm64/Packages
+ c4528fe438abd94493aa27c73107847d907fe8dc28271e3b1781abf13f46e187 2346 main/binary-arm64/Packages.gz
+ 269b9d937194b753d87fa4c75575dc9a39f0ba3f9e15f7734885d0bcc0cb28d8 6931 main/binary-amd64/Packages
+ c7bf602b53c65e1475ed1fa552e23f409485f2a7e1716cba17884a74aa721d33 2344 main/binary-amd64/Packages.gz

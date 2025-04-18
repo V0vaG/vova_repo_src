@@ -194,6 +194,20 @@ Description: abc topix
 Command: topix
 Email: its_a_vio@hotmail.com
 
+Package: vcliper
+Version: 1.1.13
+Architecture: all
+Maintainer: Vladimir Glayzer
+Filename: pool/main/vcliper_1.1.13_all.deb
+Size: 5154
+MD5sum: ff0e31bd4b23a83ce69cc6dcfedaa793
+SHA1: a3a4eeefb38f436b0204bb8f7b8d7345ca81f17d
+SHA256: b1ca54d35ab15fd153bfe8764780d4b1de06d9db7587e91941bf0daf775794d1
+Homepage: http://example.com
+Description: abc vcliper
+Command: vcliper
+Email: its_a_vio@hotmail.com
+
 Package: vova
 Version: 4.0.1
 Architecture: all
